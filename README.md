@@ -30,15 +30,43 @@ Python 으로 제작되었습니다.
 
 config.ini 파일은 다음과 같습니다.
 
-```
+```ini
 [DEFAULT]
 webhook_url =
 screen_position = 600, 400, 730, 586
 interval_seconds = 30
 similarity_percent = 91
 ```
-
 Discord 의 webhook_url 을 설정해야 알림 메시지를 받을 수 있습니다.
+
+## capture_region.png 샘플
+
+아래와 같은 영역을 대상으로 전후 비교를 수행합니다.
+
+스크린의 위치는 config.ini 파일의 screen_position 값을 변경하여 조정할 수 있습니다.
+
+![captured_region](https://github.com/user-attachments/assets/07fd6f0e-cdff-4153-8bdd-d3fc4f8780d5)
+
+## Discord 메시지
+
+아래와 같이 Discord 메시지를 발송합니다.
+
+`Change detected: 2024.09.11 - 00:14:07 (Similarity : 80.06%)`
+
+Similarity 값이 작을수록 전후 차이가 심하다고 볼 수 있습니다.
+
+![image](https://github.com/user-attachments/assets/3a6e0406-f01a-4fe8-8e77-0dc5e6e94ef4)
+
+
+## Install
+
+```bash
+> git clone https://github.com/hwantage/RobloxWindowMonitor.git
+> pip3 install pyinstaller
+> pyinstaller --onefile RobloxWindowMonitor.py
+```
+
+dist 디렉토리에 생성된 exe 파일을 실행하여 프로그램을 구동합니다.
 
 ## License
 
