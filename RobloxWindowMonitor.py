@@ -143,7 +143,6 @@ def send_discord_message_with_file(webhook_url, message, file_path):
 def monitor_roblox():
     print("\n############ Information ############")
     print("# This program that detects whether the screen of a Roblox window has changed.")
-    print("# Author: hwantagexsw2@gmail.com")
     print("# Git: https://github.com/hwantage")
     print("# License: MIT")
     
