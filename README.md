@@ -51,12 +51,9 @@ Discord 의 webhook_url 을 설정해야 알림 메시지를 받을 수 있습�
 
 아래와 같이 Discord 메시지를 발송합니다.
 
-`Change detected: 2024.09.11 - 00:14:07 (Similarity : 80.06%)`
+`Change detected: 2024.09.11 - 00:14:07 (Similari샷]
 
 Similarity 값이 작을수록 전후 차이가 심하다고 볼 수 있습니다.
-
-![image](https://github.com/user-attachments/assets/3a6e0406-f01a-4fe8-8e77-0dc5e6e94ef4)
-
 
 ## Install
 
